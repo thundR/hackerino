@@ -10,4 +10,6 @@ xorcool.py - reverse-engineer script for xor encryption/base64
 
 vortex1.c - network programming using sockets/syscalls 
 
+narnia1.py - ez buffer overflow for narnia1
+
 tools created for overthewire.org wargames
